@@ -1,0 +1,171 @@
+.auth-wrap {
+	overflow: hidden;
+}
+.auth-wrap .auth-col {
+	width: 46%;
+	margin: 0 8% 0 0;
+	float: left;
+}
+.auth-wrap .auth-col form {
+	border: none;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+}
+.auth-wrap .auth-col:nth-child(2n) {
+	margin-right: 0;
+}
+.auth-wrap .auth-col h2 {
+	font-size: 22px;
+	margin: 0 0 25px 20%;
+}
+.auth-wrap .auth-col p {
+	overflow: hidden;
+	margin: 0 0 20px;
+}
+.auth-wrap .auth-col .required {
+	color: red;
+}
+.auth-wrap .auth-col p a {
+	line-height: 1;
+	display: inline-block;
+}
+.auth-wrap .auth-col .auth-lost_password {
+	padding: 0 0 0 20%;
+}
+.auth-wrap .auth-col label {
+	width: 20%;
+	text-align: right;
+	padding-right: 15px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.auth-wrap .auth-col input[type=email],
+.auth-wrap .auth-col input[type=password],
+.auth-wrap .auth-col input[type=text] {
+	padding: 0 15px;
+	color: @color_main;
+	background: #f8fafc;
+	font-size: 14px;
+	height: 40px;
+	border: 1px solid #e0e4f6;
+	transition: all 0.2s;
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	width: 80%;
+}
+.auth-wrap .auth-col input[type=submit] {
+	margin: 0 0 0 20%;
+	font-size: 13px;
+	padding: 10px 20px;
+}
+.auth-wrap .auth-submit {
+	position: relative;
+	margin: 0px 0 23px;
+}
+.auth-wrap .auth-submit input[type=checkbox] {
+	display: none;
+}
+.auth-wrap .auth-submit input[type=checkbox] + label {
+	padding: 2px 25px 0 0;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	transition: color 0.2s;
+	width: auto;
+	position: absolute;
+	top: 50%;
+	margin: -10px 0 0;
+	right: 0;
+}
+.auth-wrap .auth-submit input[type=checkbox] + label:hover {
+	color: #3a89cf;
+}
+.auth-wrap .auth-submit input[type=checkbox] + label:after {
+	content: "\f00c";
+	width: 14px;
+	height: 14px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin: -7px 0 0;
+	right: 0;
+	border: 2px solid #8890af;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #fff;
+	font-size: 8px;
+	padding: 0 0 0 1px;
+	text-align: center;
+	font-family: FontAwesome;
+	line-height: 10px;
+}
+.auth-wrap .auth-submit input[type=checkbox]:checked + label:after {
+	border-color: lighten(@color_main, 20%);
+	background-color: lighten(@color_main, 20%);
+}
+.auth-wrap .auth-register {
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+	.auth-wrap .auth-col h2 {
+		margin: 0 0 25px 24%;
+	}
+	.auth-wrap .auth-col label {
+		width: 24%;
+	}
+	.auth-wrap .auth-col input[type=email],
+	.auth-wrap .auth-col input[type=password],
+	.auth-wrap .auth-col input[type=text] {
+		width: 76%;
+	}
+	.auth-wrap .auth-col input[type=submit] {
+		margin: 0 0 0 24%;
+	}
+	.auth-wrap .auth-col .auth-lost_password {
+		padding: 0 0 0 24%;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.auth-wrap .auth-col {
+		width: auto;
+		margin: 0;
+		float: none;
+		max-width: 500px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.auth-wrap .auth-col {
+		margin: 0 0 50px;
+	}
+	.auth-wrap .auth-col h2 {
+		margin: 0 0 25px;
+	}
+	.auth-wrap .auth-col label {
+		width: auto;
+		display: block;
+		text-align: left;
+		padding: 0 0 3px;
+	}
+	.auth-wrap .auth-col input[type=email],
+	.auth-wrap .auth-col input[type=password],
+	.auth-wrap .auth-col input[type=text] {
+		width: 100%;
+		display: block;
+	}
+	.auth-wrap .auth-col input[type=submit] {
+		margin: 0;
+	}
+	.auth-wrap .auth-col .auth-lost_password {
+		padding: 0;
+	}
+}

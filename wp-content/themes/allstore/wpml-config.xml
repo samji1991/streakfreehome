@@ -1,0 +1,14 @@
+<wpml-config>
+  <taxonomies>
+    <taxonomy translate="1">product_brands</taxonomy>
+    <taxonomy translate="1">product_badges</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="theme_mods_allstore">
+      <key name="header_contacts"/>
+      <key name="header_social"/>
+      <key name="footer_blocks"/>
+      <key name="footer_social"/>
+    </key>
+  </admin-texts>
+</wpml-config>

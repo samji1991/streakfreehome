@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-23 08:58+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: allstore-custom-types.php:26 allstore-custom-types.php:28
+msgid "Brands"
+msgstr ""
+
+#: allstore-custom-types.php:27
+msgid "Brand"
+msgstr ""
+
+#: allstore-custom-types.php:29 allstore-custom-types.php:30
+msgid "Add New Brand"
+msgstr ""
+
+#: allstore-custom-types.php:64
+msgid "Brand Image"
+msgstr ""
+
+#: allstore-custom-types.php:72
+msgid "Choose Image"
+msgstr ""
+
+#: allstore-custom-types.php:73
+msgid "Remove Image"
+msgstr ""
+
+#: allstore-custom-types.php:107 allstore-custom-types.php:109
+msgid "Badges"
+msgstr ""
+
+#: allstore-custom-types.php:108
+msgid "Badge"
+msgstr ""
+
+#: allstore-custom-types.php:110 allstore-custom-types.php:111
+msgid "Add New Badge"
+msgstr ""
+
+#: allstore-custom-types.php:144
+msgid "Badge Color"
+msgstr ""
+
+#: allstore-custom-types.php:147
+msgid "Hex Color Codes, e.g. #ff3100"
+msgstr ""
+
+#: plugins/woocommerce-ajax-cart/wooajaxcart.php:21
+msgid "Update Cart"
+msgstr ""
+
+#: plugins/woocommerce-ajax-cart/wooajaxcart.php:22
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/woocommerce-products-per-page.php:214
+msgid "Settings"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/class-wppp-front-end.php:87
+#, php-format
+msgid "%s products per page"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/class-wppp-front-end.php:88
+#: widgets/widget-categories.php:134
+msgid "All"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:64
+msgid "List of dropdown options"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:65
+msgid "Seperated by spaces <em>(-1 for all products)</em>"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:72
+msgid "Default products per page"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:73
+msgid "-1 for all products"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:81
+msgid "First category page"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:82
+msgid ""
+"When checked and a new number of PPP is selected, the visitor will be send "
+"to the first page of the product category"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:89
+msgid "HTTP method"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:90
+msgid ""
+"GET sends the products per page via the url, POST does this on the background"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:96
+msgid "POST"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:97
+msgid "GET"
+msgstr ""
+
+#: widgets/widget-badges.php:7
+msgid "Allstore Badges"
+msgstr ""
+
+#: widgets/widget-badges.php:10
+msgid "Badges List"
+msgstr ""
+
+#: widgets/widget-badges.php:115 widgets/widget-brands.php:134
+#: widgets/widget-categories.php:127
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-badges.php:119
+msgid "Posts Count:"
+msgstr ""
+
+#: widgets/widget-brands.php:7
+msgid "AllStore Brands"
+msgstr ""
+
+#: widgets/widget-brands.php:10
+msgid "Brands List"
+msgstr ""
+
+#: widgets/widget-brands.php:138
+msgid "Brands Max Count:"
+msgstr ""
+
+#: widgets/widget-brands.php:142
+msgid "Show brands with image:"
+msgstr ""
+
+#: widgets/widget-categories.php:7 widgets/widget-categories.php:10
+msgid "AllStore Categories"
+msgstr ""
+
+#: widgets/widget-categories.php:131
+msgid "Start from:"
+msgstr ""
+
+#: widgets/widget-categories.php:133
+msgid "Level 1"
+msgstr ""
+
+#: widgets/widget-categories.php:135
+msgid "Current"
+msgstr ""

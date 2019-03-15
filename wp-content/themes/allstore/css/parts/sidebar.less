@@ -1,0 +1,171 @@
+.section-sb {
+	float: left;
+	width: 25%;
+	padding: 0 0 50px;
+}
+.section-sb .theiaStickySidebar {
+	padding-top: 0px; 
+	padding-bottom: 1px;
+}
+.section-sb:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.section-sb h3 {
+	font-size: 20px;
+}
+.section-sb > .theiaStickySidebar > .widget,
+.section-sb > .widget {
+	margin: 0 0 50px;
+}
+.section-sb > .theiaStickySidebar > .widget:not(.WOOF_Widget) .chosen-container,
+.section-sb > .widget:not(.WOOF_Widget) .chosen-container {
+	width: 100% !important;
+	min-width: initial;
+}
+.widget h3.widget-title {
+	margin: 0 0 20px;
+}
+.widget ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.widget ul li {
+	list-style: none;
+}
+.widget ul li a {
+	line-height: 1;
+	display: inline-block;
+}
+.widget .textwidget {
+	line-height: 2;
+}
+.widget.widget_product_search .woocommerce-product-search,
+.widget.widget_search .search-form {
+	position: relative;
+	padding: 4px 0 0;
+}
+.widget.widget_product_search .woocommerce-product-search input[type=search],
+.widget.widget_search .search-form input[type=search] {
+	width: 100%;
+	float: none;
+	padding: 0 115px 0 15px;
+	margin: 0;
+	max-width: 100%;
+	width: auto;
+}
+.widget.widget_product_search .woocommerce-product-search input[type=submit],
+.widget.widget_search .search-form input[type=submit] {
+	position: absolute;
+	right: 0;
+	top: 4px;
+	font-size: 13px;
+	padding: 11px 25px;
+}
+.stylization .calendar_wrap table,
+.stylization .calendar_wrap th,
+.stylization .calendar_wrap td {
+	border: none;
+	line-height: 1.42857143;
+}
+.stylization .calendar_wrap caption {
+	text-align: center;
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+.stylization .wp-caption.alignnone a {
+	border: none;
+}
+.blog-calendar-cont {
+	line-height: 2;
+	border-top: 1px solid #ecf2f7;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.blog-calendar-cont h3 {
+	line-height: 2;
+	margin: 0 0 20px;
+}
+.woocommerce ul.cart_list li a,
+.woocommerce ul.product_list_widget li a {
+	display: inline;
+}
+.woocommerce ul.cart_list li .star-rating,
+.woocommerce ul.product_list_widget li .star-rating {
+	font-size: 12px;
+	color: @color_hover;
+}
+.woocommerce ul.cart_list li .star-rating *,
+.woocommerce ul.product_list_widget li .star-rating * {
+	line-height: 1;
+}
+
+
+.widget h2.widgettitle {
+	margin: 0 0 20px;
+	font-size: 20px;
+}
+.site-footer .widget h2.widgettitle {
+	font-size: 16px;
+}
+.site-footer .widget_nav_menu h2.widgettitle {
+	margin-bottom: 15px;
+}
+.widget_nav_menu ul li {
+	margin: 0;
+}
+.widget_nav_menu ul li a {
+	border: none;
+	line-height: 1.4;
+	font-weight: 300;
+	padding: 5px 0;
+	color: @color_main;
+}
+.widget_nav_menu ul li.active a,
+.widget_nav_menu ul li a:hover {
+	color: @color_hover;
+}
+
+@media only screen and (max-width : 768px) {
+	.section-sb {
+		float: none;
+		width: 100%;
+		padding: 0 0 1px;
+	}
+	.section-sb > .theiaStickySidebar > .widget,
+	.section-sb > .widget {
+		float: left;
+		width: 49%;
+		margin-right: 2%;
+	}
+	.section-sb > .theiaStickySidebar > .allstorecategories_widget,
+	.section-sb > .allstorecategories_widget {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+	.section-sb > .theiaStickySidebar > .WOOF_Widget,
+	.section-sb > .WOOF_Widget {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+	.section-sb > .theiaStickySidebar > .widget:nth-child(2n+1),
+	.section-sb > .widget:nth-child(2n+1) {
+		clear: left;
+	}
+	.section-sb > .theiaStickySidebar > .widget:nth-child(2n),
+	.section-sb > .widget:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width : 550px) {
+	.section-sb > .theiaStickySidebar > .widget,
+	.section-sb > .widget {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+}

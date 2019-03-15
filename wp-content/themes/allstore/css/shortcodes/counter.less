@@ -1,0 +1,89 @@
+/*.facts-wrap {
+	overflow: hidden;
+	margin-bottom: 30px;
+}*/
+.facts-i {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 300;
+	color: @color_text;
+	line-height: 1.7;
+	font-size: 14px;
+	position: relative;
+	padding-bottom: 11px;
+}
+.facts-i:after {
+	background-color: @color_main;
+	width: 50px;
+	height: 1px;
+	display: block;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin: 0 0 0 -25px;
+	transition: all 0.2s;
+}
+.facts-i:hover:after {
+	background-color: @color_hover;
+}
+.facts-i .facts-i-num {
+	margin: 0 0 10px;
+	padding: 0;
+	color: @color_main;
+	white-space: nowrap;
+	line-height: 1;
+	font-size: 42px;
+	letter-spacing: 2px;
+	transition: all 0.2s;
+	height: 42px;
+	position: relative;
+	font-weight: 700;
+	font-family: 'PT Serif', sans-serif;
+}
+.facts-i:hover .facts-i-num {
+	color: @color_hover;
+}
+.facts-i .facts-i-ttl {
+	margin: 0 0 10px;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+}
+.facts-i p {
+	font-size: 14px;
+	margin-bottom: 11px;
+}
+.facts-i .facts-i-margin {
+	display: block;
+	margin-top: 11px;
+}
+.facts-i .facts-i-percent {
+	margin: 0 auto 23px;
+	padding: 0;
+	color: @color_main;
+	white-space: nowrap;
+	line-height: 1;
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	position: relative;
+	height: 105px;
+	width: 105px;
+}
+.facts-i .facts-i-percent .progressbar-text {
+	color: @color_main !important;
+	font-size: 30px;
+	font-family: 'PT Serif', sans-serif;
+	font-weight: 700;
+}
+.facts-i .facts-i-percent .progressbar-text span {
+	font-size: 20px;
+}
+.facts-i .facts-i-ttl.facts-i-ttl-2 {
+	font-weight: 700;
+	font-size: 13px;
+	text-transform: uppercase;
+}

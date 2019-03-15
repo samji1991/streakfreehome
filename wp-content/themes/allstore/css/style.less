@@ -1,0 +1,457 @@
+/*----------------------------------
+TABLE OF CONTENTS:
+------------------------------------
+
+1 - Reset
+2 - Header
+3 - Stylization
+4 - Breadcrumbs & Pagination
+6 - Products List
+7 - Catalog | Gallery View
+8 - Catalog | List View
+9 - Catalog | Table View
+10 - Sidebar Categories
+11 - Sidebar Filter
+12 - Catalog Topbar
+13 - Single Product
+14 - Single Product Tabs
+15 - Single Product Related
+16 - Single Product V2
+17 - Blog
+18 - Blog Post
+19 - Cart
+20 - Order
+21 - Reviews Carousel
+22 - Reviews List
+23 - Modal Form
+24 - Pricing Table
+25 - Team
+26 - Contact Forms
+27 - Brands
+28 - Banners
+29 - Discounts
+30 - Newsletter
+31 - Iconbox
+32 - Counters
+33 - Social Links
+34 - Accordion
+35 - Select Styles
+36 - Footer
+37 - Error 404
+38 - Quickview
+39 - Subcategories
+40 - Woocommerce
+41 - Compare
+42 - Auth
+
+----------------------------------*/
+
+
+
+/*----------------------------------
+1 - Reset
+----------------------------------*/
+@import "parts/reset.less";
+/*----------------------------------
+1 - Reset
+----------------------------------*/
+
+
+/*----------------------------------
+2 - Header
+----------------------------------*/
+@import "parts/header.less";
+/*----------------------------------
+2 - Header
+----------------------------------*/
+
+
+/*----------------------------------
+3 - Stylization
+----------------------------------*/
+@import "parts/stylization.less";
+/*----------------------------------
+3 - Stylization
+----------------------------------*/
+
+
+/*----------------------------------
+4 - Breadcrumbs & Pagination
+----------------------------------*/
+@import "parts/bcrumbs_pagi.less";
+/*----------------------------------
+4 - Breadcrumbs
+----------------------------------*/
+
+
+
+
+/*----------------------------------
+6 - Products List
+----------------------------------*/
+.section-items:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.page-description,
+.term-description {
+	clear: both;
+	margin-bottom: 70px;
+	position: relative;
+	padding-left: 20px;
+}
+.page-description:after,
+.term-description:after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 3px;
+	background-color: @color_main;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/*----------------------------------
+6 - Products List
+----------------------------------*/
+
+
+/*----------------------------------
+7 - Catalog | Gallery View
+----------------------------------*/
+@import "parts/catalog-gallery.less";
+@import "parts/catalog-gallery-m.less";
+
+@import "shortcodes/products.less";
+/*----------------------------------
+7 - Catalog | Gallery View
+----------------------------------*/
+
+
+/*----------------------------------
+8 - Catalog | List View
+----------------------------------*/
+@import "parts/catalog-list.less";
+@import "parts/catalog-list-m.less";
+/*----------------------------------
+8 - Catalog | List View
+----------------------------------*/
+
+
+/*----------------------------------
+9 - Catalog | Table View
+----------------------------------*/
+@import "parts/catalog-table.less";
+/*----------------------------------
+9 - Catalog | Table View
+----------------------------------*/
+
+
+/*----------------------------------
+10 - Sidebar Categories
+----------------------------------*/
+@import "parts/sidebar.less";
+@import "parts/sidebar-categories.less";
+/*----------------------------------
+10 - Sidebar Categories
+----------------------------------*/
+
+
+/*----------------------------------
+11 - Sidebar Filter
+----------------------------------*/
+@import "parts/sidebar-filter.less";
+/*----------------------------------
+11 - Sidebar Filter
+----------------------------------*/
+
+
+/*----------------------------------
+12 - Catalog Topbar
+----------------------------------*/
+.section-sticky-wrap {
+	position: relative;
+	transform: none;
+}
+.section-cont {
+	float: left;
+	width: 75%;
+	padding: 54px 0 50px 30px;
+	position: relative;
+}
+.section-cont#section-sticky-cont {
+	padding-top: 0;
+	padding-left: 0;
+}
+.section-cont .theiaStickySidebar {
+	padding-bottom: 1px; 
+	position: relative; 
+	transform: none;
+
+	padding-top: 54px !important;
+	padding-left: 30px;
+}
+@import "parts/catalog-topbar.less";
+/*----------------------------------
+12 - Catalog Topbar
+----------------------------------*/
+
+
+/*----------------------------------
+13 - Single Product
+----------------------------------*/
+@import "parts/product.less";
+/*----------------------------------
+13 - Single Product
+----------------------------------*/
+
+
+/*----------------------------------
+14 - Single Product Tabs
+----------------------------------*/
+@import "parts/product-tabs.less";
+/*----------------------------------
+14 - Single Product Tabs
+----------------------------------*/
+
+
+/*----------------------------------
+15 - Single Product Related
+----------------------------------*/
+@import "parts/products_related.less";
+/*----------------------------------
+15 - Single Product Related
+----------------------------------*/
+
+
+/*----------------------------------
+16 - Single Product V2
+----------------------------------*/
+@import "parts/product-fixed.less";
+/*----------------------------------
+16 - Single Product V2
+----------------------------------*/
+
+
+/*----------------------------------
+17 - Blog
+----------------------------------*/
+@import "parts/blog.less";
+/*----------------------------------
+17 - Blog
+----------------------------------*/
+
+
+/*----------------------------------
+18 - Blog Post
+----------------------------------*/
+@import "parts/post.less";
+/*----------------------------------
+18 - Blog Post
+----------------------------------*/
+
+
+/*----------------------------------
+19 - Cart
+----------------------------------*/
+@import "parts/cart.less";
+/*----------------------------------
+19 - Cart
+----------------------------------*/
+
+
+/*----------------------------------
+20 - Order
+----------------------------------*/
+@import "parts/checkout.less";
+/*----------------------------------
+20 - Order
+----------------------------------*/
+
+
+/*----------------------------------
+21 - Reviews Carousel
+----------------------------------*/
+@import "shortcodes/reviews.less";
+/*----------------------------------
+21 - Reviews Carousel
+----------------------------------*/
+
+
+/*----------------------------------
+22 - Reviews List
+----------------------------------*/
+@import "parts/reviews-list.less";
+/*----------------------------------
+22 - Reviews List
+----------------------------------*/
+
+
+/*----------------------------------
+23 - Modal Form
+----------------------------------*/
+@import "parts/modal.less";
+/*----------------------------------
+23 - Modal Form
+----------------------------------*/
+
+
+/*----------------------------------
+24 - Pricing Table
+----------------------------------*/
+@import "shortcodes/pricing.less";
+/*----------------------------------
+24 - Pricing Table
+----------------------------------*/
+
+
+/*----------------------------------
+25 - Team
+----------------------------------*/
+@import "shortcodes/team.less";
+/*----------------------------------
+25 - Team
+----------------------------------*/
+
+
+/*----------------------------------
+26 - Contact Forms
+----------------------------------*/
+@import "shortcodes/forms.less";
+/*----------------------------------
+26 - Contact Forms
+----------------------------------*/
+
+
+/*----------------------------------
+27 - Brands
+----------------------------------*/
+@import "shortcodes/brands.less";
+/*----------------------------------
+27 - Brands
+----------------------------------*/
+
+
+/*----------------------------------
+28 - Banners
+----------------------------------*/
+@import "shortcodes/banners.less";
+/*----------------------------------
+28 - Banners
+----------------------------------*/
+
+
+/*----------------------------------
+29 - Discounts
+----------------------------------*/
+@import "shortcodes/discounts.less";
+/*----------------------------------
+29 - Discounts
+----------------------------------*/
+
+
+/*----------------------------------
+30 - Newsletter
+----------------------------------*/
+@import "shortcodes/newsletter.less";
+/*----------------------------------
+30 - Newsletter
+----------------------------------*/
+
+
+/*----------------------------------
+31 - Iconbox
+----------------------------------*/
+@import "shortcodes/iconbox.less";
+/*----------------------------------
+31 - Iconbox
+----------------------------------*/
+
+
+/*----------------------------------
+32 - Counters
+----------------------------------*/
+@import "shortcodes/counter.less";
+/*----------------------------------
+32 - Counters
+----------------------------------*/
+
+
+/*----------------------------------
+33 - Social Links
+----------------------------------*/
+@import "shortcodes/social.less";
+/*----------------------------------
+33 - Social Links
+----------------------------------*/
+
+
+/*----------------------------------
+34 - Accordion
+----------------------------------*/
+@import "shortcodes/tabs.less";
+/*----------------------------------
+34 - Accordion
+----------------------------------*/
+
+
+@import "shortcodes/image-half.less";
+
+
+@import "shortcodes/video.less";
+
+
+@import "shortcodes/images-carousel.less";
+
+
+@import "shortcodes/menu.less";
+
+
+@import "shortcodes/links_list.less";
+
+
+/*----------------------------------
+35 - Select Styles
+----------------------------------*/
+@import "parts/chosen.less";
+/*----------------------------------
+35 - Select Styles
+----------------------------------*/
+
+
+/*----------------------------------
+36 - Footer
+----------------------------------*/
+@import "parts/footer.less";
+/*----------------------------------
+36 - Footer
+----------------------------------*/
+
+
+/*----------------------------------
+37 - Error 404
+----------------------------------*/
+@import "parts/err404.less";
+/*----------------------------------
+37 - Error 404
+----------------------------------*/
+
+/* 38 - Quickview */
+@import "parts/quickview.less";
+
+/* 39 - Subcategories */
+@import "parts/subcategories.less";
+@import "parts/subcategories-m.less";
+
+/* 40 - Woocommerce */
+@import "parts/woocommerce.less";
+
+/* 41 - Compare */
+@import "parts/compare.less";
+
+/* 42 - Auth */
+@import "parts/auth.less";
+
+/* 43 - Other */
+@import "parts/other.less";

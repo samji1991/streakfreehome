@@ -1,0 +1,116 @@
+.discounts-wrap {
+	margin: 0 0 50px;
+	position: relative;
+}
+.discounts-wrap .discounts-list {
+	padding: 0 240px 0 0;
+	position: relative;
+}
+.discounts-wrap.discounts-wrap-nobtn .discounts-list {
+	padding: 0;
+}
+.discounts-wrap .discounts-list .slides {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+	height: 145px;
+}
+.discounts-wrap .discounts-info {
+	color: @color_main;
+	font-size: 15px;
+	position: absolute;
+	bottom: 27px;
+	right: 0;
+	width: 210px;
+}
+.discounts-wrap .discounts-info p {
+	margin: 0 0 15px;
+	line-height: 1.4;
+}
+.discounts-wrap .discounts-info a {
+	background: @color_main;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 8px 20px;
+	font-weight: 500;
+	display: inline-block;
+	transition: all 0.2s;
+	letter-spacing: 1px;
+}
+.discounts-wrap .discounts-info a:hover {
+	background: #474f6e;
+}
+
+@media only screen and (max-width : 1300px) {
+	.discounts-list .flex-direction-nav .flex-next {
+		right: 20px;
+	}
+	.discounts-list .flex-direction-nav .flex-prev {
+		left: 20px;
+	}
+	.discounts-list.flexslider .flex-direction-nav a {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		opacity: 1 !important;
+		margin: -18px 0 0;
+		position: absolute;
+		top: 50%;
+		color: @color_main;
+		text-shadow: none;
+		background: rgba(255,255,255,0.8);
+	}
+	.discounts-list.flexslider .flex-direction-nav a:before {
+		display: block;
+		content: "\f104";
+		font-size: 26px;
+		text-indent: initial;
+		color: @color_main;
+		font-family: FontAwesome;
+		transition: all 0.3s;
+		text-shadow: none;
+	}
+	.discounts-list.flexslider .flex-direction-nav a.flex-next:before {
+		margin: 0 0 0 4px;
+		content: "\f105";
+	}
+	.discounts-list.flexslider .flex-direction-nav a.flex-prev:before {
+		margin: 0 2px 0 0;
+		content: "\f104";
+	}
+	.discounts-list.flexslider .flex-direction-nav a:hover {
+		background: rgba(18,176,255,0.4);
+		background: rgba(55,61,84,0.7);
+		background: #fff;
+		text-decoration: none;
+	}
+	.discounts-list.flexslider .flex-direction-nav .flex-next:hover {
+		right: 20px;
+	}
+	.discounts-list.flexslider .flex-direction-nav .flex-prev:hover {
+		left: 20px;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.discounts-wrap .discounts-list {
+		padding: 0;
+		border-left: 1px solid #e0e4f6;
+	}
+	.discounts-list .discounts-i {
+		padding: 20px 15px 0 135px;
+	}
+	.discounts-wrap .discounts-info {
+		padding: 30px 0 0;
+		position: relative;
+		top: auto;
+		bottom: auto;
+		right: auto;
+		text-align: center;
+		width: auto;
+	}
+}

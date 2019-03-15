@@ -1,0 +1,113 @@
+.image-half {
+	position: relative;
+}
+.image-half {
+	position: relative;
+}
+.image-half .image-half-img {
+	width: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.image-half .image-half-img img {
+	display: none;
+}
+.image-half-right .image-half-img {
+	right: 0;
+}
+.image-half .image-half-cont {
+	position: relative;
+}
+.image-half .image-half-cont:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+.image-half .image-half-inner {
+	width: 50%;
+	padding-top: 100px;
+	padding-bottom: 65px;
+	font-weight: 300;
+}
+.image-half-left .image-half-inner {
+	float: right;
+	padding-left: 100px;
+}
+.cont-full .image-half-inner {
+	padding-right: 100px;
+}
+.image-half-right .image-half-inner {
+	float: left;
+	padding-right: 100px;
+}
+.cont-full .image-half-inner {
+	padding-left: 100px;
+}
+
+@media only screen and (max-width : 1200px) {
+	.image-half .image-half-img {
+		width: 35%;
+	}
+	.image-half .image-half-inner {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.image-half .image-half-inner {
+		padding-top: 80px;
+		padding-bottom: 45px;
+	}
+	.image-half-left .image-half-inner {
+		padding-left: 80px;
+	}
+	.cont-full .image-half-inner {
+		padding-right: 80px;
+	}
+	.image-half-right .image-half-inner {
+		padding-right: 80px;
+	}
+	.cont-full .image-half-inner {
+		padding-left: 80px;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.image-half .image-half-img {
+		background-image: initial;
+		width: auto;
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+	}
+	.image-half .image-half-img img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.image-half .image-half-inner {
+		width: 100%;
+		float: none;
+		padding: 50px 35px 15px;
+	}
+	.cont-full .image-half-inner {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.image-half .image-half-inner {
+		padding: 35px 20px 0;
+	}
+	.cont-full .image-half-inner {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+}

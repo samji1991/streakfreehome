@@ -1,0 +1,135 @@
+/*.team-wrap {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.team-list {
+	margin-left: -15px;
+	margin-right: -15px;
+}*/
+.team-i {
+	text-align: center;
+	margin-bottom: 40px;
+	color: @color_main;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 390px;
+	font-weight: 300;
+	color: #616161;
+	line-height: 1.7;
+}
+.team-list .team-i:nth-child(3n+1) {
+	clear: left;
+}
+.team-i .team-i-img {
+	margin: 0 0 25px;
+	padding: 0;
+	overflow: hidden;
+	/*height: 280px;*/
+	display: block;
+}
+.team-i .team-i-img img {
+	display: block;
+	width: 100%;
+	/*min-height: 100%;*/
+}
+.team-i .team-i-ttl {
+	margin: 0 0 2px;
+	padding: 0;
+	font-weight: 500;
+	font-size: 19px;
+}
+.team-i .team-i-post {
+	color: @color_main;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 0 0 13px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.team-i p {
+	margin-bottom: 19px;
+}
+.team-i .team-i-margin {
+	display: block;
+	margin-top: 19px;
+}
+.team-i .team-i-social {
+	text-align: center;
+	padding: 17px 0 0;
+	margin: 0;
+	position: relative;
+}
+.team-i .team-i-social:after {
+	position: absolute;
+	content: '';
+	display: block;
+	top: 0;
+	left: 50%;
+	width: 190px;
+	margin: 0 0 0 -95px;
+	height: 1px;
+	background: #e0e4f6;
+}
+.team-i .team-i-social li {
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+	margin: 0 8px 8px;
+}
+.team-i .team-i-social li a {
+	transition: all 0.2s;
+	border: none;
+	color: lighten(@color_main, 20%);
+	font-size: 18px;
+}
+.team-i .team-i-social li a:hover .fa {
+	color: @color_hover;
+}
+.team-i .team-i-social li a:hover .fa-pinteres {
+	color: #f44336;
+}
+.team-i .team-i-social li a:hover .fa-facebook-square,
+.team-i .team-i-social li a:hover .fa-faceboo {
+	color: #0083C9;
+}
+.team-i .team-i-social li a:hover .fa-twitter {
+	color: #5BBCEC;
+}
+.team-i .team-i-social li a:hover .fa-linkedin {
+	color: #FF4518;
+}
+.team-i .team-i-social li a:hover .fa-dribbble {
+	color: #90C9DC;
+}
+.team-i .team-i-social li a:hover .fa-google-plus {
+	color: #CE3C2D;
+}
+.team-i .team-i-social li a:hover .fa-instagram {
+	color: #b4307d;
+}
+.team-i .team-i-social li a:hover .fa-vk {
+	color: #4c75a3;
+}
+
+
+@media only screen and (max-width : 1200px) {
+	/*.team-i .team-i-img {
+		height: 228px;
+	}*/
+}
+
+@media only screen and (max-width : 992px) {
+	/*.team-i .team-i-img {
+		height: 171px;
+	}*/
+}
+
+@media only screen and (max-width : 768px) {
+	/*.team-i .team-i-img {
+		height: auto;
+	}*/
+	/*.team-i .team-i-img img {
+		min-height: initial;
+	}*/
+}
+

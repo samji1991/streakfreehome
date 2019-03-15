@@ -1,0 +1,84 @@
+.products_carousel {
+	overflow: hidden;
+	position: relative;
+}
+.products_carousel .slides {
+	width: 1600%;
+	transition-duration: 0s;
+	transform: translate3d(0px, 0px, 0px);
+}
+.products_carousel .prod-i {
+	width: 276px;
+	margin-bottom: 12px;
+}
+.products_carousel .flex-direction-nav a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	opacity: 1 !important;
+	margin: -40px 0 0;
+	position: absolute;
+	top: 50%;
+	color: @color_main;
+	text-shadow: none;
+	background: rgba(255,255,255,0.8);
+}
+.products_carousel ol,
+.products_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.products_carousel .flex-direction-nav a:before {
+	display: block;
+	content: "\f104";
+	font-size: 26px;
+	text-indent: initial;
+	color: @color_main;
+	font-family: FontAwesome;
+	transition: all 0.3s;
+	text-shadow: none;
+}
+.products_carousel .flex-direction-nav a.flex-next:before {
+	margin: 0 0 0 4px;
+	content: "\f105";
+}
+.products_carousel .flex-direction-nav a.flex-prev:before {
+	margin: 0 2px 0 0;
+	content: "\f104";
+}
+.products_carousel .flex-direction-nav a:hover {
+	background: #fff;
+	text-decoration: none;
+}
+.products_carousel.flexslider:hover .flex-direction-nav .flex-prev {
+	opacity: 1;
+	left: 20px;
+}
+.products_carousel.flexslider:hover .flex-direction-nav .flex-next {
+	opacity: 1;
+	right: 20px;
+}
+.products_carousel .flex-control-nav {
+	bottom: 0px;
+}
+.products_carousel .flex-control-nav li {
+	margin: 0 4px;
+}
+.products_carousel .flex-control-nav li a {
+	display: block;
+	border-radius: 0;
+	width: 23px;
+	height: 3px;
+	box-shadow: none;
+	transition: all 0.2s;
+	background: #e0e4f6;
+}
+.products_carousel .flex-control-nav li a:hover {
+	background: @color_main;
+}
+.products_carousel .flex-control-nav li a.flex-active {
+	background: @color_main;
+	cursor: default;
+}

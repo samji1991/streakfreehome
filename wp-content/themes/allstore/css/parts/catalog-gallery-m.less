@@ -1,0 +1,100 @@
+@media only screen and (max-width : 1200px) {
+	.section-cont .section-items .prod-i-img {
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	.section-cont .section-items .prod-i {
+		width: 49%;
+		margin: 0 2% 36px 0;
+	}
+	.section-cont .section-items .prod-i:nth-child(3n) {
+		margin-right: 2%;
+	}
+	.section-cont .section-items .prod-i:nth-child(3n+1) {
+		clear: none;
+	}
+	.section-cont .section-items .prod-i:nth-child(2n) {
+		margin-right: 0;
+	}
+	.section-cont .section-items .prod-i:nth-child(2n+1) {
+		clear: left;
+	}
+	.section-cont .section-items .prod-i-img {
+		height: 235px;
+	}
+
+	.section-cont-full .section-items .prod-i {
+		width: 32%;
+		margin: 0 2% 36px 0;
+		clear: none;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(4n) {
+		margin-right: 2%;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(4n+1) {
+		clear: none;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(3n) {
+		margin-right: 0;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(3n+1) {
+		clear: left;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.section-cont-full .section-items .prod-i {
+		width: 49%;
+		margin: 0 2% 36px 0;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(3n) {
+		margin-right: 2%;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(3n+1) {
+		clear: none;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(2n) {
+		margin-right: 0;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(2n+1) {
+		clear: left;
+	}
+}
+
+@media only screen and (max-width : 550px) {
+
+	.section-cont-full .section-items .prod-i,
+	.section-cont .section-items .prod-i {
+		width: 100%;
+		margin: 0 auto 36px !important;
+		max-width: 264px;
+		float: none;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(2n),
+	.section-cont .section-items .prod-i:nth-child(2n) {
+		margin-right: 0;
+	}
+	.section-cont-full .section-items .prod-i:nth-child(2n+1),
+	.section-cont .section-items .prod-i:nth-child(2n+1) {
+		clear: none;
+	}
+
+	.section-cont .section-items .prod-i-img:not(.prod-i-carousel) {
+		max-height: initial;
+		height: auto;
+	}
+	.section-cont .section-items .prod-i-img:not(.prod-i-carousel):before {
+		display: none;
+	}
+	.section-cont .section-items .prod-i-img:not(.prod-i-carousel) img {
+		display: block;
+		max-height: 250px;
+		margin: 0 auto;
+	}
+	.section-cont .section-items .prod-i-img.prod-i-carousel {
+		height: 263px;
+	}
+
+}

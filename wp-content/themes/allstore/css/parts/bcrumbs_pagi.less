@@ -1,0 +1,117 @@
+ul.b-crumbs {
+	font-size: 14px;
+	color: @color_main;
+	padding: 0 0 1px 0;
+	margin: 0;
+}
+.maincont-ct ul.b-crumbs {
+	text-align: center;
+}
+.b-crumbs li {
+	display: inline-block;
+	margin: 0 32px 6px 0;
+	padding: 0;
+	line-height: 1.7;
+	position: relative;
+	color: @color_text;
+}
+.b-crumbs li:after {
+	position: absolute;
+	content: "\f105";
+	font-size: 12px;
+	font-family: FontAwesome;
+	color: @color_main;
+	display: block;
+	left: auto;
+	top: 0;
+	line-height: 1;
+	margin: 6px 0 0;
+	right: -22px;
+}
+.b-crumbs li:last-child {
+	margin-right: 0;
+}
+.b-crumbs li:last-child:after {
+	display: none;
+}
+.b-crumbs li a {
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,0);
+	transition: all 0.2s;
+	color: @color_main;
+	line-height: 100%;
+}
+.b-crumbs li a:hover {
+	border-bottom: 1px solid @color_main;
+	color: @color_main;
+	text-decoration: none;
+}
+
+
+ul.page-numbers {
+	margin: 20px auto 40px;
+	display: block;
+	padding: 0;
+}
+.page-numbers li {
+	display: inline-block;
+	margin: 0 0 10px 0;
+}
+.page-numbers li:first-child a,
+.page-numbers li:first-child span {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	margin-left: 0;
+}
+.page-numbers li:last-child a,
+.page-numbers li:last-child span {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+.page-numbers li span.current {
+	background-color: @color_main;
+	color: #fff;
+	cursor: default;
+	z-index: 2;
+}
+.page-numbers li a,
+.page-numbers li span {
+	font-size: 14px;
+	font-weight: 500;
+	border: none;
+	float: left;
+	margin-left: -1px;
+	padding: 0 12px;
+	position: relative;
+	text-decoration: none;
+	margin-right: 8px;
+	color: @color_main;
+	background: #eff1fa;
+	border-radius: 0;
+	line-height: 32px;
+	height: 32px;
+	transition: all 0.2s;
+}
+.page-numbers li a:hover {
+	background: @color_main;
+	color: #fff;
+}
+.page-numbers li.prev a,
+.page-numbers li.next a {
+	font-size: 16px;
+}
+
+@media only screen and (max-width : 650px) {
+	.topinfo .b-crumbs {
+		padding: 33px 0 15px 0;
+	}
+}
+
+@media only screen and (max-width : 550px) {
+	body ul.page-numbers {
+		padding: 52px 0px 13px;
+	}
+	ul.page-numbers li {
+		margin: 0 0px 5px 3px;
+	}
+}

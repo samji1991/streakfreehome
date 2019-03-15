@@ -1,0 +1,115 @@
+.modalform {
+	font-size: 14px;
+	background: #fff;
+	width: 100%;
+	padding: 30px 30px 20px;
+	margin: 0 auto;
+	width: 280px;
+}
+.modalform .modalform-ttl {
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 0 0 11px;
+	font-weight: 500;
+	margin: 0 0 20px;
+	color: @color_main;
+	text-align: center;
+	position: relative;
+}
+.modalform .modalform-ttl:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 50px;
+	height: 1px;
+	margin: 0 0 0 -25px;
+	display: block;
+	background: @color_main;
+}
+.modalform input[type=text] {
+	width: 100%;
+	display: block;
+	margin: 0 auto 20px;
+	border: 1px solid #e0e4f6;
+	height: 40px;
+	color: @color_main;
+	background: #f8fafc;
+	transition: all 0.2s;
+	padding: 0 14px;
+	font-size: 14px;
+}
+.modalform input[type=text]::-webkit-input-placeholder {
+	color: #c7cbdc;
+}
+.modalform input[type=text]::-moz-placeholder {
+	color: #c7cbdc;
+	opacity: 1;
+}
+.modalform input[type=text]:-ms-input-placeholder {
+	color: #c7cbdc;
+}
+.modalform textarea {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	margin: 0 0 20px 0;
+	border: 1px solid #e0e4f6;
+	display: block;
+	min-height: 170px;
+	height: 170px;
+	max-height: 700px;
+	color: @color_main;
+	background: #f8fafc;
+	transition: all 0.2s;
+	padding: 14px 14px;
+	font-size: 14px;
+}
+.modalform textarea::-webkit-input-placeholder {
+	color: #c7cbdc;
+}
+.modalform textarea::-moz-placeholder {
+	color: #c7cbdc;
+	opacity: 1;
+}
+.modalform textarea:-ms-input-placeholder {
+	color: #c7cbdc;
+}
+.modalform button[type=submit] {
+	display: block;
+	border: none;
+	font-size: 13px;
+	color: #fff;
+	margin: 0 auto 15px;
+	padding: 10px 24px 9px;
+	cursor: pointer;
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	background: @color_main;
+	transition: all 0.2s;
+	height: auto;
+	width: 100%;
+}
+.modalform button[type=submit] .fa {
+	display: inline-block;
+	vertical-align: middle;
+	margin: -2px 5px 0 0;
+	font-size: 12px;
+}
+.modalform button[type=submit]:hover {
+	background: #22B2F9;
+}
+.redborder {
+	border-color: red !important;
+}
+.modalform .form-result {
+	margin: 0;
+}
+
+@media only screen and (max-width : 380px) {
+	.modalform {
+		width: 275px;
+	}
+}

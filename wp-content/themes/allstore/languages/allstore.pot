@@ -1,0 +1,2050 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-25 14:58+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:9
+msgid "404"
+msgstr ""
+
+#: 404.php:10
+msgid "Error. Page not found."
+msgstr ""
+
+#: 404.php:12
+msgid "Search..."
+msgstr ""
+
+#: 404.php:13
+msgid "Search"
+msgstr ""
+
+#: comments.php:25
+msgid "Add your comment"
+msgstr ""
+
+#: comments.php:35 inc/shortcodes/products_brands.php:35
+#: inc/shortcodes/products_brands.php:57
+#: inc/shortcodes/products_brands.php:109
+#: inc/shortcodes/products_categories.php:35
+#: inc/shortcodes/products_categories.php:57
+#: inc/shortcodes/products_categories.php:109 inc/shortcodes/team.php:13
+#: inc/shortcodes/testimonials.php:88
+msgid "Name"
+msgstr ""
+
+#: comments.php:36
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:39
+msgid "Enter your comment here.."
+msgstr ""
+
+#: comments.php:44
+msgid "Send"
+msgstr ""
+
+#: comments.php:47
+#, php-format
+msgid ""
+"<a class=\"logged-in-as-profile\" href=\"%1$s\" aria-label=\"%2$s\">%3$s</a> "
+"(<a href=\"%4$s\">Log out?</a>)"
+msgstr ""
+
+#: comments.php:50
+#, php-format
+msgid "%s. Edit your profile."
+msgstr ""
+
+#: comments.php:76
+msgid "Prev"
+msgstr ""
+
+#: comments.php:77
+msgid "Next"
+msgstr ""
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#: functions.php:99
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:101 functions.php:110 functions.php:119 functions.php:128
+#: functions.php:137 functions.php:146 functions.php:155 functions.php:164
+#: functions.php:173
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:108
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:117
+msgid "Footer top 1"
+msgstr ""
+
+#: functions.php:126
+msgid "Footer top 2"
+msgstr ""
+
+#: functions.php:135
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:153
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:171
+msgid "Footer 5"
+msgstr ""
+
+#: header.php:82
+msgid "Wishlist"
+msgstr ""
+
+#: header.php:92 inc/functions/woocommerce.php:281
+msgid "Compare"
+msgstr ""
+
+#: header.php:102
+msgid "My account"
+msgstr ""
+
+#: header.php:105
+msgid "Logout"
+msgstr ""
+
+#: header.php:112
+msgid "Registration"
+msgstr ""
+
+#: header.php:115 woocommerce/myaccount/form-login.php:33
+#: woocommerce/myaccount/form-login.php:50
+msgid "Login"
+msgstr ""
+
+#: header.php:126
+msgid "Cart"
+msgstr ""
+
+#: header.php:144 inc/kirki/includes/class-kirki-l10n.php:131
+msgid "All"
+msgstr ""
+
+#: header.php:144
+msgid "catalog"
+msgstr ""
+
+#: header.php:179
+msgid "Menu"
+msgstr ""
+
+#: header.php:197
+msgid "Search products"
+msgstr ""
+
+#: search.php:35
+msgid "Search Products by"
+msgstr ""
+
+#: search.php:52
+msgid "Search Posts by"
+msgstr ""
+
+#: search.php:68
+msgid "Search Pages by"
+msgstr ""
+
+#: single.php:100
+msgid "Comments:"
+msgstr ""
+
+#: single.php:161
+msgid "Related products"
+msgstr ""
+
+#: framework-customizations/theme/hooks.php:9
+msgid "AllStore Demo"
+msgstr ""
+
+#: inc/acf-fields.php:10
+msgid "Page Width"
+msgstr ""
+
+#: inc/acf-fields.php:22 inc/acf-fields.php:96 inc/shortcodes.php:27
+#: inc/shortcodes.php:40
+msgid "Container"
+msgstr ""
+
+#: inc/acf-fields.php:23 inc/acf-fields.php:97 inc/shortcodes.php:28
+#: inc/shortcodes.php:41
+msgid "Full Width"
+msgstr ""
+
+#: inc/acf-fields.php:34
+msgid "Title and Breadcrumbs"
+msgstr ""
+
+#: inc/acf-fields.php:46
+msgid "Show Both"
+msgstr ""
+
+#: inc/acf-fields.php:47
+msgid "Show Title"
+msgstr ""
+
+#: inc/acf-fields.php:48
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: inc/acf-fields.php:80 woocommerce/cart/cart.php:70
+msgid "Product"
+msgstr ""
+
+#: inc/acf-fields.php:84
+msgid "Description Tab Width"
+msgstr ""
+
+#: inc/acf-fields.php:108 woocommerce/single-product/tabs/tabs.php:52
+#: woocommerce/single-product/tabs/tabs.php:86
+msgid "Articles"
+msgstr ""
+
+#: inc/acf-fields.php:131 inc/acf-fields.php:259
+#: woocommerce/single-product/tabs/tabs.php:48
+#: woocommerce/single-product/tabs/tabs.php:79
+msgid "Video"
+msgstr ""
+
+#: inc/acf-fields.php:167
+msgid "Post"
+msgstr ""
+
+#: inc/acf-fields.php:171 inc/acf-fields.php:190
+msgid "Related"
+msgstr ""
+
+#: inc/acf-fields.php:186
+msgid "Add Related Post"
+msgstr ""
+
+#: inc/acf-fields.php:215 woocommerce/single-product/related.php:27
+msgid "Related Products"
+msgstr ""
+
+#: inc/acf-fields.php:230
+msgid "Add Related Product"
+msgstr ""
+
+#: inc/acf-fields.php:234
+msgid "Related Product"
+msgstr ""
+
+#: inc/acf-fields.php:280 inc/shortcodes/slider.php:5
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Logotype"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Header Contacts"
+msgstr ""
+
+#: inc/customizer.php:45 inc/customizer.php:68 inc/customizer.php:142
+#: inc/shortcodes/iconbox.php:62 inc/shortcodes/iconbox.php:79
+#: inc/shortcodes/iconbox.php:95 inc/shortcodes/iconbox.php:111
+#: inc/shortcodes/iconbox.php:126 inc/shortcodes/iconbox.php:142
+#: inc/shortcodes/social.php:33 inc/shortcodes/social.php:50
+#: inc/shortcodes/social.php:66 inc/shortcodes/social.php:82
+#: inc/shortcodes/social.php:97 inc/shortcodes/social.php:113
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer.php:46 inc/customizer.php:69 inc/customizer.php:114
+#: inc/customizer.php:143
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Header Social"
+msgstr ""
+
+#: inc/customizer.php:76 inc/customizer.php:150
+msgid "Link URL"
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Footer Blocks"
+msgstr ""
+
+#: inc/customizer.php:102 inc/shortcodes/banners.php:127
+#: inc/shortcodes/counter.php:13 inc/shortcodes/iconbox.php:22
+#: inc/shortcodes/pricing.php:13 inc/shortcodes/products.php:33
+#: inc/shortcodes/products.php:246 inc/shortcodes/products.php:282
+#: inc/shortcodes/products_brands.php:139
+#: inc/shortcodes/products_carousel.php:33
+#: inc/shortcodes/products_carousel.php:137
+#: inc/shortcodes/products_carousel.php:173
+#: inc/shortcodes/products_carousel_small.php:33
+#: inc/shortcodes/products_carousel_small.php:118
+#: inc/shortcodes/products_carousel_small.php:154
+#: inc/shortcodes/products_categories.php:139 inc/shortcodes/slider.php:121
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:108 inc/shortcodes/banners.php:132
+#: inc/shortcodes/pricing.php:18
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer.php:121 inc/shortcodes/banners.php:122
+#: inc/shortcodes/iconbox.php:39 inc/shortcodes/iconbox.php:53
+#: inc/shortcodes/slider.php:116 inc/shortcodes/team.php:33
+#: inc/shortcodes/testimonials.php:103
+msgid "Image"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Block - Text"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Footer Social"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Catalog"
+msgstr ""
+
+#: inc/customizer.php:181 inc/customizer.php:414
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer.php:187 inc/customizer.php:214 inc/customizer.php:421
+#: inc/shortcodes/products.php:67 inc/shortcodes/products_brands.php:61
+#: inc/shortcodes/products_categories.php:61
+msgid "Show"
+msgstr ""
+
+#: inc/customizer.php:188 inc/customizer.php:215 inc/customizer.php:243
+#: inc/customizer.php:270 inc/customizer.php:284 inc/customizer.php:298
+#: inc/customizer.php:325 inc/customizer.php:420
+#: inc/shortcodes/products.php:68 inc/shortcodes/products.php:104
+#: inc/shortcodes/products.php:133 inc/shortcodes/products.php:148
+#: inc/shortcodes/products.php:163 inc/shortcodes/products.php:192
+#: inc/shortcodes/products_brands.php:62
+#: inc/shortcodes/products_carousel.php:83
+#: inc/shortcodes/products_categories.php:62
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer.php:194
+msgid "Default View Mode"
+msgstr ""
+
+#: inc/customizer.php:200 inc/shortcodes/products.php:77
+msgid "Gallery"
+msgstr ""
+
+#: inc/customizer.php:201 inc/shortcodes/products.php:78
+msgid "List"
+msgstr ""
+
+#: inc/customizer.php:202 inc/customizer.php:388
+#: inc/shortcodes/products.php:79
+msgid "Table"
+msgstr ""
+
+#: inc/customizer.php:208
+msgid "Tabs in Quick view"
+msgstr ""
+
+#: inc/customizer.php:221 inc/shortcodes/products.php:85
+#: inc/shortcodes/products_carousel.php:64
+msgid "Gallery Mode Image"
+msgstr ""
+
+#: inc/customizer.php:227 inc/customizer.php:255 inc/customizer.php:310
+#: inc/shortcodes/products.php:88 inc/shortcodes/products.php:117
+#: inc/shortcodes/products.php:176 inc/shortcodes/products_carousel.php:67
+msgid "Single Image"
+msgstr ""
+
+#: inc/customizer.php:228 inc/customizer.php:256 inc/customizer.php:311
+#: inc/shortcodes/products.php:89 inc/shortcodes/products.php:118
+#: inc/shortcodes/products.php:177 inc/shortcodes/products_carousel.php:68
+msgid "Carousel"
+msgstr ""
+
+#: inc/customizer.php:234 inc/shortcodes/products.php:99
+#: inc/shortcodes/products_carousel.php:78
+msgid "Gallery Mode Buttons"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Add to cart, wishlist, compare, additional features buttons"
+msgstr ""
+
+#: inc/customizer.php:241 inc/shortcodes/products.php:102
+#: inc/shortcodes/products_carousel.php:81
+msgid "Image Area"
+msgstr ""
+
+#: inc/customizer.php:242 inc/shortcodes/products.php:103
+#: inc/shortcodes/products_carousel.php:82
+msgid "Price Area"
+msgstr ""
+
+#: inc/customizer.php:249 inc/shortcodes/products.php:114
+msgid "List Mode Image"
+msgstr ""
+
+#: inc/customizer.php:262 inc/shortcodes/products.php:128
+msgid "List Mode Wishlist/Compare/Quick view"
+msgstr ""
+
+#: inc/customizer.php:268 inc/customizer.php:282 inc/customizer.php:363
+#: inc/customizer.php:376 inc/customizer.php:449
+#: inc/kirki/includes/class-kirki-l10n.php:158 inc/shortcodes/banners.php:146
+#: inc/shortcodes/products.php:131 inc/shortcodes/products.php:146
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer.php:269 inc/kirki/includes/class-kirki-l10n.php:157
+#: inc/shortcodes/banners.php:145 inc/shortcodes/products.php:132
+msgid "Top"
+msgstr ""
+
+#: inc/customizer.php:276 inc/shortcodes/products.php:143
+msgid "List Mode Attributes"
+msgstr ""
+
+#: inc/customizer.php:283 inc/customizer.php:362 inc/customizer.php:448
+#: inc/kirki/includes/class-kirki-l10n.php:160 inc/shortcodes/banners.php:148
+#: inc/shortcodes/products.php:147
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:290 inc/shortcodes/products.php:158
+msgid "List Mode Add to Cart"
+msgstr ""
+
+#: inc/customizer.php:296 inc/customizer.php:323
+#: inc/shortcodes/products.php:161 inc/shortcodes/products.php:190
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer.php:297 inc/customizer.php:324
+#: inc/shortcodes/products.php:162 inc/shortcodes/products.php:191
+msgid "Simple"
+msgstr ""
+
+#: inc/customizer.php:304 inc/shortcodes/products.php:173
+msgid "Table Mode Image"
+msgstr ""
+
+#: inc/customizer.php:317 inc/shortcodes/products.php:187
+msgid "Table Mode Add to Cart"
+msgstr ""
+
+#: inc/customizer.php:334
+msgid "Single Product"
+msgstr ""
+
+#: inc/customizer.php:342
+msgid "Product View Mode"
+msgstr ""
+
+#: inc/customizer.php:348
+msgid "Type 1 (Slider)"
+msgstr ""
+
+#: inc/customizer.php:349
+msgid "Type 2 (Scroll)"
+msgstr ""
+
+#: inc/customizer.php:355
+msgid "Related Products Position"
+msgstr ""
+
+#: inc/customizer.php:356
+msgid "For Product View Mode 1"
+msgstr ""
+
+#: inc/customizer.php:369
+msgid "Tabs Position for Product Type 2"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid "Content area"
+msgstr ""
+
+#: inc/customizer.php:382
+msgid "Additional Information Style"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Dots"
+msgstr ""
+
+#: inc/customizer.php:395
+msgid "Short Additional Information Rows"
+msgstr ""
+
+#: inc/customizer.php:396
+msgid "Short additional information rows count"
+msgstr ""
+
+#: inc/customizer.php:406
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:428
+msgid "Blog Posts Styles"
+msgstr ""
+
+#: inc/customizer.php:434
+msgid "Style 1"
+msgstr ""
+
+#: inc/customizer.php:435
+msgid "Style 2"
+msgstr ""
+
+#: inc/customizer.php:442
+msgid "Blog Post - Related Products"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Other"
+msgstr ""
+
+#: inc/customizer.php:466
+msgid "Social Share"
+msgstr ""
+
+#: inc/customizer.php:479 inc/shortcodes/team.php:38
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:480 inc/shortcodes/team.php:43
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:481 inc/shortcodes/team.php:53
+msgid "Vkontakte"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:483 inc/shortcodes/team.php:48
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer.php:484
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer.php:485
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer.php:495
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:503
+msgid "Links color"
+msgstr ""
+
+#: inc/customizer.php:504
+msgid "Default color: #3a89cf"
+msgstr ""
+
+#: inc/customizer.php:514
+msgid "Main color"
+msgstr ""
+
+#: inc/customizer.php:515
+msgid "Default color: #373d54"
+msgstr ""
+
+#: inc/customizer.php:525
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer.php:526
+msgid "Default color: #616161"
+msgstr ""
+
+#: inc/shortcodes.php:24 inc/shortcodes.php:37 inc/shortcodes/banners.php:14
+msgid "Layout"
+msgstr ""
+
+#: inc/shortcodes.php:50 inc/shortcodes.php:71
+msgid "Extra class name"
+msgstr ""
+
+#: inc/shortcodes.php:52 inc/shortcodes.php:73
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/shortcodes.php:59 inc/shortcodes.php:80 inc/shortcodes.php:94
+#: inc/shortcodes.php:119 inc/shortcodes/banners.php:7
+#: inc/shortcodes/banners.php:116 inc/shortcodes/counter.php:8
+#: inc/shortcodes/iconbox.php:8 inc/shortcodes/posts.php:10
+#: inc/shortcodes/pricing.php:8 inc/shortcodes/products.php:8
+#: inc/shortcodes/products_brands.php:8 inc/shortcodes/products_carousel.php:8
+#: inc/shortcodes/products_carousel_small.php:8
+#: inc/shortcodes/products_categories.php:8 inc/shortcodes/slider.php:7
+#: inc/shortcodes/slider.php:110 inc/shortcodes/social.php:8
+#: inc/shortcodes/team.php:9 inc/shortcodes/testimonials.php:7
+#: inc/shortcodes/testimonials.php:82
+msgid "AllStore"
+msgstr ""
+
+#: inc/shortcodes.php:60 inc/shortcodes.php:81 inc/shortcodes.php:95
+msgid "Classic"
+msgstr ""
+
+#: inc/shortcodes.php:61 inc/shortcodes.php:82 inc/shortcodes.php:96
+msgid "Modern"
+msgstr ""
+
+#: inc/shortcodes.php:62 inc/shortcodes.php:83 inc/shortcodes.php:97
+msgid "Flat"
+msgstr ""
+
+#: inc/shortcodes.php:63 inc/shortcodes.php:84 inc/shortcodes.php:98
+msgid "Outline"
+msgstr ""
+
+#: inc/shortcodes.php:65 inc/shortcodes.php:86 inc/shortcodes.php:100
+#: inc/shortcodes.php:116 inc/shortcodes/posts.php:14
+msgid "Style"
+msgstr ""
+
+#: inc/shortcodes.php:66 inc/shortcodes.php:87
+msgid "Select tour display style."
+msgstr ""
+
+#: inc/shortcodes.php:101
+msgid "Select accordion display style."
+msgstr ""
+
+#: inc/shortcodes.php:108
+msgid "Use theme default font family?"
+msgstr ""
+
+#: inc/shortcodes.php:110 inc/shortcodes/banners.php:157
+#: inc/shortcodes/products_brands.php:72
+#: inc/shortcodes/products_categories.php:72 inc/shortcodes/slider.php:31
+#: inc/shortcodes/slider.php:41 inc/shortcodes/slider.php:51
+msgid "Yes"
+msgstr ""
+
+#: inc/shortcodes.php:111
+msgid "Use font family from the theme."
+msgstr ""
+
+#: inc/shortcodes.php:120
+msgid "Standart"
+msgstr ""
+
+#: inc/functions/theme-functions.php:45
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions/woocommerce.php:211
+msgid "Gallery View"
+msgstr ""
+
+#: inc/functions/woocommerce.php:215
+msgid "List View"
+msgstr ""
+
+#: inc/functions/woocommerce.php:219
+msgid "Table View"
+msgstr ""
+
+#: inc/functions/woocommerce.php:274
+#: inc/kirki/includes/class-kirki-l10n.php:170
+msgid "Remove"
+msgstr ""
+
+#: inc/functions/woocommerce.php:275
+msgid "View Compare"
+msgstr ""
+
+#: inc/functions/woocommerce.php:454 inc/functions/woocommerce.php:597
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: inc/functions/woocommerce.php:728 woocommerce/cart/cart.php:151
+msgid "Update Cart"
+msgstr ""
+
+#: inc/functions/woocommerce.php:729
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:104
+msgid "Background Color"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:105
+msgid "Background Image"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:106
+msgid "No Repeat"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:107
+msgid "Repeat All"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:108
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:109
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:110
+msgid "Inherit"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:111
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:112
+msgid "Cover"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:113
+msgid "Contain"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:114
+msgid "Background Size"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:115
+msgid "Fixed"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:116
+msgid "Scroll"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:117
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:118
+msgid "Left Top"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:119
+msgid "Left Center"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:120
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:121
+msgid "Right Top"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:122
+msgid "Right Center"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:123
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:124
+msgid "Center Top"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:125
+msgid "Center Center"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:126
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:127
+msgid "Background Position"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:128
+msgid "Background Opacity"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:129
+msgid "ON"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:130
+msgid "OFF"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:132
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:133
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:134
+msgid "Devanagari"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:135
+msgid "Greek"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:136
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:137
+msgid "Khmer"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:138
+msgid "Latin"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:139
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:140
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:141
+msgid "Hebrew"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:142
+msgid "Arabic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:143
+msgid "Bengali"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:144
+msgid "Gujarati"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:145
+msgid "Tamil"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:146
+msgid "Telugu"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:147
+msgid "Thai"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:148
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:149
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:150
+msgctxt "font style"
+msgid "Monospace"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:151
+msgid "Font Family"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:152
+msgid "Font Size"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:153
+msgid "Font Weight"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:154
+msgid "Line Height"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:155
+msgid "Font Style"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:156
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:159 inc/shortcodes/banners.php:147
+msgid "Left"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:161 inc/shortcodes/banners.php:166
+msgid "Center"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:162
+msgid "Justify"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:163
+msgid "Color"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:164
+msgid "Add Image"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:165
+msgid "Change Image"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:166
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:167
+msgid "Add File"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:168
+msgid "Change File"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:169
+msgid "No File Selected"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:171
+msgid "Select a font-family"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:172
+msgid "Variant"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:173
+msgid "Subset"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:174
+msgid "Size"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:175
+msgid "Height"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:176
+msgid "Spacing"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:177
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:178
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:179
+msgid "Light 200"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:180
+msgid "Light 200 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:181
+msgid "Book 300"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:182
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:183
+msgid "Normal 400"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:184
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:185
+msgid "Medium 500"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:186
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:187
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:188
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:189
+msgid "Bold 700"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:190
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:191
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:192
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:193
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:194
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:195
+msgid "Invalid Value"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:196
+msgid "Add new"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:197
+msgid "row"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:198
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:199
+#: inc/kirki/includes/sections/class-kirki-sections-hover-section.php:40
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:200
+#: inc/kirki/includes/sections/class-kirki-sections-hover-section.php:46
+msgid "Back"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:201
+#, php-format
+msgid "%s Reset"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:202
+msgid "Text Align"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:203
+msgid "Text Transform"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:204
+msgid "None"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:205
+msgid "Capitalize"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:206
+msgid "Uppercase"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:207
+msgid "Lowercase"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:208
+msgid "Initial"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:209
+msgid "Select a Page"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:210
+msgid "Open Editor"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:211
+msgid "Close Editor"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:212
+msgid "Switch Editor"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:213
+msgid "Hex Value"
+msgstr ""
+
+#: inc/shortcodes/banners.php:5
+msgid "Banners"
+msgstr ""
+
+#: inc/shortcodes/banners.php:17
+msgid "1 Item | 100%"
+msgstr ""
+
+#: inc/shortcodes/banners.php:18
+msgid "2 Items | 50%-50%"
+msgstr ""
+
+#: inc/shortcodes/banners.php:19
+msgid "3 Items | 50%-25%-25%"
+msgstr ""
+
+#: inc/shortcodes/banners.php:20
+msgid "3 Items | 25%-50%-25%"
+msgstr ""
+
+#: inc/shortcodes/banners.php:21
+msgid "3 Items | 25%-25%-50%"
+msgstr ""
+
+#: inc/shortcodes/banners.php:22
+msgid "4 Items | 25%-25%-25%-25%"
+msgstr ""
+
+#: inc/shortcodes/banners.php:28
+msgid "Banners Height"
+msgstr ""
+
+#: inc/shortcodes/banners.php:34
+msgid "Gap"
+msgstr ""
+
+#: inc/shortcodes/banners.php:37
+msgid "0px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:38
+msgid "1px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:39
+msgid "2px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:40
+msgid "3px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:41
+msgid "4px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:42
+msgid "5px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:43
+msgid "6px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:44
+msgid "7px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:45
+msgid "8px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:46
+msgid "9px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:47
+msgid "10px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:48
+msgid "11px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:49
+msgid "12px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:50
+msgid "13px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:51
+msgid "14px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:52
+msgid "15px"
+msgstr ""
+
+#: inc/shortcodes/banners.php:58 inc/shortcodes/counter.php:47
+#: inc/shortcodes/iconbox.php:158 inc/shortcodes/posts.php:29
+#: inc/shortcodes/pricing.php:43 inc/shortcodes/products.php:206
+#: inc/shortcodes/products_brands.php:79
+#: inc/shortcodes/products_carousel.php:97
+#: inc/shortcodes/products_carousel_small.php:78
+#: inc/shortcodes/products_categories.php:79 inc/shortcodes/slider.php:57
+#: inc/shortcodes/social.php:129 inc/shortcodes/team.php:63
+#: inc/shortcodes/testimonials.php:28
+msgid "Css"
+msgstr ""
+
+#: inc/shortcodes/banners.php:60 inc/shortcodes/counter.php:49
+#: inc/shortcodes/iconbox.php:160 inc/shortcodes/posts.php:31
+#: inc/shortcodes/pricing.php:45 inc/shortcodes/products.php:208
+#: inc/shortcodes/products_brands.php:81
+#: inc/shortcodes/products_carousel.php:99
+#: inc/shortcodes/products_carousel_small.php:80
+#: inc/shortcodes/products_categories.php:81 inc/shortcodes/slider.php:59
+#: inc/shortcodes/social.php:131 inc/shortcodes/team.php:65
+#: inc/shortcodes/testimonials.php:30
+msgid "Design options"
+msgstr ""
+
+#: inc/shortcodes/banners.php:114
+msgid "Banner"
+msgstr ""
+
+#: inc/shortcodes/banners.php:137 inc/shortcodes/counter.php:33
+#: inc/shortcodes/iconbox.php:27 inc/shortcodes/pricing.php:38
+#: inc/shortcodes/slider.php:126 inc/shortcodes/testimonials.php:98
+msgid "Content"
+msgstr ""
+
+#: inc/shortcodes/banners.php:142 inc/shortcodes/team.php:18
+#: inc/shortcodes/testimonials.php:93
+msgid "Position"
+msgstr ""
+
+#: inc/shortcodes/banners.php:154
+msgid "Content with Overlay"
+msgstr ""
+
+#: inc/shortcodes/banners.php:163
+msgid "Text align"
+msgstr ""
+
+#: inc/shortcodes/banners.php:172 inc/shortcodes/iconbox.php:32
+#: inc/shortcodes/pricing.php:28 inc/shortcodes/products_carousel_small.php:69
+#: inc/shortcodes/slider.php:131 inc/shortcodes/social.php:13
+#: inc/shortcodes/team.php:28
+msgid "Link"
+msgstr ""
+
+#: inc/shortcodes/counter.php:5
+msgid "Counter"
+msgstr ""
+
+#: inc/shortcodes/counter.php:18
+msgid "Value"
+msgstr ""
+
+#: inc/shortcodes/counter.php:23
+msgid "Title Color"
+msgstr ""
+
+#: inc/shortcodes/counter.php:28
+msgid "Value Color"
+msgstr ""
+
+#: inc/shortcodes/counter.php:38
+msgid "Value - Percent or Number"
+msgstr ""
+
+#: inc/shortcodes/counter.php:41 inc/shortcodes/products_brands.php:24
+#: inc/shortcodes/products_categories.php:24
+msgid "Number"
+msgstr ""
+
+#: inc/shortcodes/counter.php:42
+msgid "Percent"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:5
+msgid "Iconbox"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:13
+msgid "Styles"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:16
+msgid "Icon on the Top"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:17
+msgid "Icon on the Left"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:37 inc/shortcodes/social.php:18
+msgid "Icon library"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:40 inc/shortcodes/social.php:20
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:41 inc/shortcodes/social.php:21
+msgid "Open Iconic"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:42 inc/shortcodes/social.php:22
+msgid "Typicons"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:43 inc/shortcodes/social.php:23
+msgid "Entypo"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:44 inc/shortcodes/social.php:24
+msgid "Linecons"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:45 inc/shortcodes/social.php:25
+msgid "Mono Social"
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:49 inc/shortcodes/social.php:29
+msgid "Select icon library."
+msgstr ""
+
+#: inc/shortcodes/iconbox.php:75 inc/shortcodes/iconbox.php:91
+#: inc/shortcodes/iconbox.php:107 inc/shortcodes/iconbox.php:138
+#: inc/shortcodes/iconbox.php:154 inc/shortcodes/social.php:46
+#: inc/shortcodes/social.php:62 inc/shortcodes/social.php:78
+#: inc/shortcodes/social.php:109 inc/shortcodes/social.php:125
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/shortcodes/posts.php:6
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/shortcodes/posts.php:17
+msgid "Title on the Hover"
+msgstr ""
+
+#: inc/shortcodes/posts.php:18
+msgid "Title on the Bottom"
+msgstr ""
+
+#: inc/shortcodes/posts.php:23
+msgid "Posts count"
+msgstr ""
+
+#: inc/shortcodes/pricing.php:5
+msgid "Pricing Tables"
+msgstr ""
+
+#: inc/shortcodes/pricing.php:23 woocommerce/cart/cart.php:40
+#: woocommerce/cart/cart.php:87
+msgid "Price"
+msgstr ""
+
+#: inc/shortcodes/pricing.php:33
+msgid "Larger"
+msgstr ""
+
+#: inc/shortcodes/products-content.php:98
+msgid "load more"
+msgstr ""
+
+#: inc/shortcodes/products.php:5 inc/shortcodes/products.php:13
+#: inc/shortcodes/products_carousel.php:13
+#: inc/shortcodes/products_carousel_small.php:13 woocommerce/cart/cart.php:39
+msgid "Products"
+msgstr ""
+
+#: inc/shortcodes/products.php:9 inc/shortcodes/products_carousel.php:9
+#: inc/shortcodes/products_carousel_small.php:9
+msgid "Show multiple products by ID or SKU."
+msgstr ""
+
+#: inc/shortcodes/products.php:22 inc/shortcodes/products_carousel.php:22
+#: inc/shortcodes/products_carousel_small.php:22
+msgid "Enter List of Products (not required)"
+msgstr ""
+
+#: inc/shortcodes/products.php:26 inc/shortcodes/products_brands.php:30
+#: inc/shortcodes/products_carousel.php:26
+#: inc/shortcodes/products_carousel_small.php:26
+#: inc/shortcodes/products_categories.php:30
+msgid "Order by"
+msgstr ""
+
+#: inc/shortcodes/products.php:29 inc/shortcodes/products_brands.php:33
+#: inc/shortcodes/products_carousel.php:29
+#: inc/shortcodes/products_carousel_small.php:29
+#: inc/shortcodes/products_categories.php:33
+msgid "Custom"
+msgstr ""
+
+#: inc/shortcodes/products.php:30 inc/shortcodes/products_carousel.php:30
+#: inc/shortcodes/products_carousel_small.php:30
+msgid "Date"
+msgstr ""
+
+#: inc/shortcodes/products.php:31 inc/shortcodes/products_brands.php:34
+#: inc/shortcodes/products_carousel.php:31
+#: inc/shortcodes/products_carousel_small.php:31
+#: inc/shortcodes/products_categories.php:34
+msgid "ID"
+msgstr ""
+
+#: inc/shortcodes/products.php:32 inc/shortcodes/products_carousel.php:32
+#: inc/shortcodes/products_carousel_small.php:32
+msgid "Author"
+msgstr ""
+
+#: inc/shortcodes/products.php:34 inc/shortcodes/products_carousel.php:34
+#: inc/shortcodes/products_carousel_small.php:34
+msgid "Modified"
+msgstr ""
+
+#: inc/shortcodes/products.php:35 inc/shortcodes/products_carousel.php:35
+#: inc/shortcodes/products_carousel_small.php:35
+msgid "Random"
+msgstr ""
+
+#: inc/shortcodes/products.php:36 inc/shortcodes/products_carousel.php:36
+#: inc/shortcodes/products_carousel_small.php:36
+msgid "Comment count"
+msgstr ""
+
+#: inc/shortcodes/products.php:37 inc/shortcodes/products_carousel.php:37
+#: inc/shortcodes/products_carousel_small.php:37
+msgid "Menu order"
+msgstr ""
+
+#: inc/shortcodes/products.php:41 inc/shortcodes/products_carousel.php:41
+#: inc/shortcodes/products_carousel_small.php:41
+#, php-format
+msgid "Select how to sort retrieved products. More at %s. Default by Title"
+msgstr ""
+
+#: inc/shortcodes/products.php:45 inc/shortcodes/products_brands.php:45
+#: inc/shortcodes/products_carousel.php:45
+#: inc/shortcodes/products_carousel_small.php:45
+#: inc/shortcodes/products_categories.php:45
+msgid "Sort order"
+msgstr ""
+
+#: inc/shortcodes/products.php:49 inc/shortcodes/products_brands.php:49
+#: inc/shortcodes/products_carousel.php:49
+#: inc/shortcodes/products_carousel_small.php:49
+#: inc/shortcodes/products_categories.php:49
+msgid "Descending"
+msgstr ""
+
+#: inc/shortcodes/products.php:50 inc/shortcodes/products_brands.php:50
+#: inc/shortcodes/products_carousel.php:50
+#: inc/shortcodes/products_carousel_small.php:50
+#: inc/shortcodes/products_categories.php:50
+msgid "Ascending"
+msgstr ""
+
+#: inc/shortcodes/products.php:53 inc/shortcodes/products_carousel.php:53
+#: inc/shortcodes/products_carousel_small.php:53
+#, php-format
+msgid ""
+"Designates the ascending or descending order. More at %s. Default by ASC"
+msgstr ""
+
+#: inc/shortcodes/products.php:57 inc/shortcodes/products_carousel.php:57
+#: inc/shortcodes/products_carousel_small.php:57
+msgid "Items per page"
+msgstr ""
+
+#: inc/shortcodes/products.php:59 inc/shortcodes/products_carousel.php:59
+#: inc/shortcodes/products_carousel_small.php:59
+msgid "Number of items to show per page. Enter -1 to display all"
+msgstr ""
+
+#: inc/shortcodes/products.php:64
+msgid "Show \"Load more\""
+msgstr ""
+
+#: inc/shortcodes/products.php:74
+msgid "View mode"
+msgstr ""
+
+#: inc/shortcodes/products.php:246 inc/shortcodes/products.php:285
+#: inc/shortcodes/products_brands.php:109
+#: inc/shortcodes/products_brands.php:142
+#: inc/shortcodes/products_carousel.php:137
+#: inc/shortcodes/products_carousel.php:176
+#: inc/shortcodes/products_carousel_small.php:118
+#: inc/shortcodes/products_carousel_small.php:157
+#: inc/shortcodes/products_categories.php:109
+#: inc/shortcodes/products_categories.php:142
+msgid "Id"
+msgstr ""
+
+#: inc/shortcodes/products.php:246 inc/shortcodes/products.php:277
+#: inc/shortcodes/products_brands.php:134
+#: inc/shortcodes/products_carousel.php:137
+#: inc/shortcodes/products_carousel.php:168
+#: inc/shortcodes/products_carousel_small.php:118
+#: inc/shortcodes/products_carousel_small.php:149
+#: inc/shortcodes/products_categories.php:134
+msgid "Sku"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:5
+msgid "Products brands"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:9
+msgid "Display products brands loop"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:13
+msgid "Brands"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:20
+msgid "List of product brands"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:26
+#: inc/shortcodes/products_categories.php:26
+msgid "The `number` field is used to display the number of products."
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:36
+#: inc/shortcodes/products_categories.php:36
+msgid "Count"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:37
+#: inc/shortcodes/products_brands.php:109
+#: inc/shortcodes/products_categories.php:37
+#: inc/shortcodes/products_categories.php:109
+msgid "Slug"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:38
+#: inc/shortcodes/products_carousel_small.php:64
+#: inc/shortcodes/products_categories.php:38 inc/shortcodes/team.php:23
+msgid "Description"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:41
+#: inc/shortcodes/products_categories.php:41
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:53
+#: inc/shortcodes/products_categories.php:53
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:68
+#: inc/shortcodes/products_categories.php:68
+msgid "Hide empty"
+msgstr ""
+
+#: inc/shortcodes/products_brands.php:73
+#: inc/shortcodes/products_categories.php:73
+msgid "No"
+msgstr ""
+
+#: inc/shortcodes/products_carousel.php:5
+msgid "Products Carousel"
+msgstr ""
+
+#: inc/shortcodes/products_carousel_small.php:5
+msgid "Products Carousel Small"
+msgstr ""
+
+#: inc/shortcodes/products_categories.php:5
+msgid "Products categories"
+msgstr ""
+
+#: inc/shortcodes/products_categories.php:9
+msgid "Display products categories loop"
+msgstr ""
+
+#: inc/shortcodes/products_categories.php:13
+msgid "Products Categories"
+msgstr ""
+
+#: inc/shortcodes/products_categories.php:20
+msgid "List of product categories"
+msgstr ""
+
+#: inc/shortcodes/slider.php:14
+msgid "Slideshow Speed"
+msgstr ""
+
+#: inc/shortcodes/slider.php:15
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: inc/shortcodes/slider.php:21
+msgid "Animation Speed"
+msgstr ""
+
+#: inc/shortcodes/slider.php:22
+msgid "Set the speed of animations, in milliseconds"
+msgstr ""
+
+#: inc/shortcodes/slider.php:28
+msgid "Show pagination control"
+msgstr ""
+
+#: inc/shortcodes/slider.php:38
+msgid "Show navigation control"
+msgstr ""
+
+#: inc/shortcodes/slider.php:47
+msgid "Stop On Hover"
+msgstr ""
+
+#: inc/shortcodes/slider.php:48
+msgid "Stop autoplay on mouse hover"
+msgstr ""
+
+#: inc/shortcodes/slider.php:108
+msgid "Slider Item"
+msgstr ""
+
+#: inc/shortcodes/social.php:5
+msgid "Social"
+msgstr ""
+
+#: inc/shortcodes/team.php:5
+msgid "Team"
+msgstr ""
+
+#: inc/shortcodes/team.php:58
+msgid "Instagram"
+msgstr ""
+
+#: inc/shortcodes/testimonials.php:5
+msgid "Testimonials"
+msgstr ""
+
+#: inc/shortcodes/testimonials.php:14
+msgid "Testimonials Container Max Width"
+msgstr ""
+
+#: inc/shortcodes/testimonials.php:15 inc/shortcodes/testimonials.php:22
+msgid "Number (px) or just leave empty for 100%"
+msgstr ""
+
+#: inc/shortcodes/testimonials.php:21
+msgid "Thumbnails Container Max Width"
+msgstr ""
+
+#: inc/shortcodes/testimonials.php:80
+msgid "Testimonials Item"
+msgstr ""
+
+#: template-parts/share.php:11
+msgid "Share on Facebook"
+msgstr ""
+
+#: template-parts/share.php:20
+msgid "Share on Twitter"
+msgstr ""
+
+#: template-parts/share.php:29
+msgid "Share on VK"
+msgstr ""
+
+#: template-parts/share.php:38
+msgid "Share on Pinterest"
+msgstr ""
+
+#: template-parts/share.php:48
+msgid "Share on Google +1"
+msgstr ""
+
+#: template-parts/share.php:57
+msgid "Share on Linkedin"
+msgstr ""
+
+#: template-parts/share.php:66
+msgid "Share on Tumblr"
+msgstr ""
+
+#: template-parts/post/loop-2.php:20
+msgid "Read more..."
+msgstr ""
+
+#: woocommerce/content-product-gallery.php:44
+#: woocommerce/content-product-gallery.php:86
+#: woocommerce/content-product-small.php:30 woocommerce/wishlist-view.php:120
+#: woocommerce/wishlist-view.php:172
+msgid "Quick View"
+msgstr ""
+
+#: woocommerce/content-product-gallery.php:88
+#: woocommerce/wishlist-view.php:174
+msgid "Information"
+msgstr ""
+
+#: woocommerce/content-product-gallery.php:90
+#: woocommerce/wishlist-view.php:176
+msgid "Read More"
+msgstr ""
+
+#: woocommerce/content-product-table.php:55
+#: woocommerce/loop/list-actions.php:5
+msgid "Quick view"
+msgstr ""
+
+#: woocommerce/content-product-table.php:60
+msgid "Show More"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:50
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Name*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Email*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Your Review*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/wishlist-view.php:36
+msgid "Save"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:40
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:117 woocommerce/wishlist-view.php:157
+msgid "Remove from Wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:157
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:228
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:236 woocommerce/wishlist-view.php:283
+msgid "Ask for an estimate"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:255
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+#: woocommerce/cart/cart.php:108
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38
+msgid "Photo"
+msgstr ""
+
+#: woocommerce/cart/cart.php:41 woocommerce/cart/cart.php:92
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:42
+msgid "Summ"
+msgstr ""
+
+#: woocommerce/cart/cart.php:83
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:110
+msgid "unit price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:123
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145 woocommerce/cart/cart.php:146
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:146
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:40
+#: woocommerce/myaccount/form-login.php:83
+msgid "Email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:89
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:52
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:68
+#: woocommerce/myaccount/form-login.php:102
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:77
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:95
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:39
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:39
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:47
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:59
+msgid "Brand: "
+msgstr ""
+
+#: woocommerce/single-product/meta.php:74
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:83
+#: woocommerce/single-product/product-attributes.php:33
+#: woocommerce/single-product/product-attributes.php:85
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:88
+#: woocommerce/single-product/product-attributes.php:40
+#: woocommerce/single-product/product-attributes.php:92
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:146
+msgid "All additional information"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:35
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:45
+msgid "You may also like"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:41
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""

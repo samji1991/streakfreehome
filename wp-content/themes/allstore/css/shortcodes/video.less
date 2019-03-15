@@ -1,0 +1,39 @@
+body .video-i {
+	margin: 0 0 50px;
+	padding: 0;
+}
+.video-i .video-i-url {
+	display: block;
+	border: none;
+	position: relative;
+}
+.video-i .video-i-url:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0);
+	transition: background-color 0.3s;
+}
+.video-i .video-i-url:hover:before {
+	background-color: rgba(0,0,0,0.1);
+}
+.video-i .video-i-url:after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 92px;
+	height: 92px;
+	margin: -46px 0 0 -46px;
+	background: url("../img/ico-play.png") no-repeat center;
+}
+.video-i .video-i-url img {
+	display: block;
+	width: 100%;
+	height: auto;
+}

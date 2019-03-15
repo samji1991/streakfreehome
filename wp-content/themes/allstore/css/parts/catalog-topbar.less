@@ -1,0 +1,189 @@
+.site-content .section-mode {
+	position: absolute;
+	top: 0;
+	left: 30px;
+}
+.site-content .section-mode:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.site-content .section-mode li {
+	float: left;
+	margin: 3px 15px 11px 0;
+	font-size: 14px;
+}
+.site-content .section-mode li a {
+	color: #b1b1b1;
+	display: block;
+	vertical-align: middle;
+	position: relative;
+}
+.site-content .section-mode li * {
+	line-height: 1;
+}
+.site-content .section-mode li a:hover {
+	color: @color_hover;
+	text-decoration: none;
+}
+.site-content .section-mode li a:before {
+	content: "";
+	width: 27px;
+	height: 24px;
+	margin: 0;
+	display: inline-block;
+	vertical-align: bottom;
+	background: url(../img/viewmode.png) no-repeat;
+}
+.site-content .section-mode li.section-mode-gallery a:before {
+	background-position: left bottom;
+}
+.site-content .section-mode li.section-mode-gallery.active a:before {
+	background-position: left top;
+}
+.site-content .section-mode li.section-mode-list a:before {
+	background-position: -27px bottom;
+}
+.site-content .section-mode li.section-mode-list.active a:before {
+	background-position: -27px top;
+}
+.site-content .section-mode li.section-mode-table a:before {
+	background-position: right bottom;
+}
+.site-content .section-mode li.section-mode-table.active a:before {
+	background-position: right top;
+}
+.site-content .section-mode li.active a {
+	color: @color_hover;
+}
+.site-content .section-mode li a span {
+	text-align: center;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	background: @color_main;
+	display: block;
+	margin: 0 0 10px -50px;
+	border-radius: 4px;
+	padding: 6px 0 7px;
+	line-height: 1;
+	color: #fff;
+	font-size: 13px;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+	-webkit-transform: translate3d(0, -4px, 0);
+	-moz-transform: translate3d(0, -4px, 0);
+	-ms-transform: translate3d(0, -4px, 0);
+	-o-transform: translate3d(0, -4px, 0);
+	transform: translate3d(0, -4px, 0);
+	visibility: hidden;
+	opacity: 0;
+	width: 100px;
+}
+.site-content .section-mode li a span:before {
+	position: absolute;
+	top: 100%;
+	content: '';
+	left: 50%;
+	display: block;
+	margin: 0 0 0 -6px;
+	width: 0;
+	height: 0;
+	line-height: 1;
+	border-top: 5px solid @color_main;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+	-webkit-transform: translate3d(0, -4px, 0);
+	-moz-transform: translate3d(0, -4px, 0);
+	-ms-transform: translate3d(0, -4px, 0);
+	-o-transform: translate3d(0, -4px, 0);
+	transform: translate3d(0, -4px, 0);
+	visibility: hidden;
+	opacity: 0;
+}
+.site-content .section-mode li a:hover span {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+.site-content .section-mode li a:hover span:before {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.site-content .products-per-page {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.site-content .woocommerce-ordering {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.site-content .products-per-page + .woocommerce-ordering {
+	right: 180px;
+}
+.site-content .products-per-page select,
+.site-content .woocommerce-ordering select {
+	opacity: 0;
+	height: 32px;
+}
+
+@media only screen and (max-width : 768px) {
+	.site-content .section-mode {
+		left: 0;
+	}
+}
+@media only screen and (max-width : 550px) {
+
+	.site-content .woocommerce-ordering,
+	.site-content .products-per-page {
+		position: relative;
+		top: auto;
+		right: auto !important;
+		margin: 0 0 50px;
+	}
+	.site-content .woocommerce-ordering {
+		float: left;
+	}
+	.site-content .section-mode {
+		float: none;
+		position: relative;
+		display: block;
+		text-align: center;
+	}
+	.site-content .section-mode li {
+		float: none;
+		display: inline-block;
+		text-align: left;
+		vertical-align: top;
+		margin: 0 7px 20px 7px;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width : 420px) {
+	.site-content .woocommerce-ordering,
+	.site-content .products-per-page {
+		display: block;
+		width: 100%;
+		float: none !important;
+		margin: 0 0 20px !important;
+	}
+	.site-content .woocommerce-ordering .chosen-container,
+	.site-content .products-per-page .chosen-container {
+		display: block;
+		min-width: 200px;
+		margin: 0 auto;
+	}
+}

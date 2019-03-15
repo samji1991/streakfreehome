@@ -1,0 +1,128 @@
+.contactform {
+	margin: 0 auto 30px;
+	max-width: 600px;
+	font-size: 14px;
+}
+.contactform p {
+	margin: 0 0 20px;
+}
+.contactform label {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 5px;
+	color: @color_main;
+	font-size: 14px;
+}
+.contactform label {
+	width: 20%;
+	text-align: right;
+	padding-right: 15px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+}
+.contactform .contactform-multiselect label,
+.contactform .contactform-textarea label {
+	vertical-align: top;
+	margin: 13px 0 0;
+}
+.contactform p label + .wpcf7-form-control-wrap,
+.contactform p label + .contactform-input,
+.contactform p label + select,
+.contactform p label + textarea,
+.contactform p label + input[type=file],
+.contactform p label + input[type=password],
+.contactform p label + input[type=email],
+.contactform p label + input[type=tel],
+.contactform p label + input[type=search],
+.contactform p label + input[type=text] {
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	width: 80%;
+}
+.contactform p input[type=file] {
+	width: auto;
+	color: @color_main;
+	font-size: 14px;
+}
+.contactform p select {
+	background: #fff;
+	outline: none !important;
+	background: #f8fafc;
+	color: @color_main;
+}
+.contactform .contactform-radio label,
+.contactform .contactform-checkbox label {
+	margin: 0 0 5px;
+}
+.contactform .contactform-radio label[for],
+.contactform .contactform-checkbox label[for] {
+	text-transform: none;
+	letter-spacing: 0;
+	width: auto;
+	text-align: left;
+	line-height: 1;
+	margin: 0;
+}
+.contactform .contactform-radio input[type=radio],
+.contactform .contactform-checkbox input[type=checkbox] {
+	margin: 0 5px 5px 0;
+}
+.contactform .contactform-radio label[for],
+.contactform .contactform-checkbox label[for] {
+	margin: 0 10px 5px 0;
+	line-height: 1;
+}
+.contactform .contactform-radio br,
+.contactform .contactform-checkbox br {
+	display: none;
+}
+.contactform .contactform-date input[type=text] {
+	display: inline-block;
+	width: 70%;
+	margin: 0 5px 0 0;
+}
+.contactform .contactform-submit {
+	text-align: center;
+	padding: 15px 0 0;
+}
+.contactform .contactform-submit input[type=submit] {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.wpcf7 .contactform + div.wpcf7-response-output {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	color: @color_main;
+	text-align: center;
+	margin: 0 0 30px;
+}
+
+.form-required {
+	color: red;
+}
+
+@media only screen and (max-width : 650px) {
+	.contactform label {
+		width: auto;
+		text-align: left;
+		margin: 0 0 4px;
+	}
+	.contactform p label + .wpcf7-form-control-wrap,
+	.contactform p label + .contactform-input,
+	.contactform p label + select,
+	.contactform p label + textarea,
+	.contactform p label + input[type=file],
+	.contactform p label + input[type=password],
+	.contactform p label + input[type=email],
+	.contactform p label + input[type=tel],
+	.contactform p label + input[type=search],
+	.contactform p label + input[type=text] {
+		width: auto;
+		display: block;
+	}
+}
